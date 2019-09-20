@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_touch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/BtnTheme"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <LinearLayout
+        android:id="@+id/ll_touch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_touch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_scale"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_touch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="도"/>
+
+    </LinearLayout>
+</LinearLayout>
